@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,100;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+
+html, body{
+  background-color: #FFF;
+
+  font-family: 'Poppins', sans-serif;
+  
+  overflow-x: hidden;
+
+  margin: 0;
+}
+
+input, select{
+  width: 100%;
+
+  font-size: 1.2rem;
+
+  display: inline-block;
+
+  padding: 7px;
+
+  border: 1px solid #CCC;
+  color: #3D3D3D;
+}
+
+select{
+  background-color: #FFF;
+}
+
+ul{
+  list-style: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.icon{
+  max-width: 17px;
+  
+  margin-right: 8px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.btn-red{
+  background-color: #E84F3D;
+  color: #FFF;
+
+  padding: 10px;
+
+  font-size: 1rem;
+}
+
+.btn-red:hover{
+  background-color: #D24434;
+}
+
+.btn-checkout{
+  width: 100%;
+  height: 70px;
+  
+  padding: 20px;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  border: 0;
+  border-radius: 0;
+  background-color: #E84F3D;
+  color: #FFF;
+
+  cursor: pointer;
+}
+
+.btn-checkout:hover{
+  background-color: #DB4130;
+}
+
+.btn-checkout[disabled]{
+  background-color: #D6D6D6;
+
+  cursor: not-allowed;
+}
+
+.container{
+  max-width: 90%;
+
+  margin: 30px auto;
+}
+
+.titulo h1{
+  font-size: 2.5rem;
+}
+
+.subtitulo{
+  color: #747474;
+
+  max-width: 50%;
+
+  margin: 16px auto 0 auto;
+
+  font-size: 1.2rem;
+}
+
+.lista-produto{
+  margin-bottom: 16px;
+}
+
+.btn-cart{
+  background-color: #FFF;
+  border: 3px solid #E9E9E9;
+  border-radius: 50px;
+
+  width: 60%;
+  
+  padding: 10px;
+
+  font-size: 1rem;
+}
+
+.btn-cart:hover{
+  background-color: #ECECEC;
+}
+
+.col-3{
+  width: 33%;
+
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.input-group{
+  margin-bottom: 30px;
+}
+
+.table{
+  width: 100%;
+}
+
+.table td{
+  border-bottom: 1px solid #CCC;
+  
+  padding: 15px;
+}
+
+.text-red{
+  color: #CD3E2E;
+}
+
+.text-light{
+  color: #747474;
+}
+
+@media screen and (max-width: 1100px) {
+  .subtitulo{
+    max-width: 95%;
+  }
+
+  .col-3{
+    width: 100%;
+  }
+}
