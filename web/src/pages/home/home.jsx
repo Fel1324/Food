@@ -22,7 +22,9 @@ function Home(){
     <div className='container'>
       <div className='titulo text-center'>
         <h1>Nosso Cardápio</h1>
-        <p className='subtitulo'>Clique em adicionar para colocar os produtos na sacola de compras. Se preferir, você pode pedir pelo WhatsApp: (11) 94785-2140</p>
+        <p className='subtitulo'>
+          Clique em adicionar para colocar os produtos na sacola de compras. Se preferir, você pode pedir pelo WhatsApp: (11) 94785-2140
+        </p>
       </div>
     </div>
     
@@ -30,7 +32,12 @@ function Home(){
       {
         produtos.map(prod => {
           return <ProdutoVitrine 
-            key={prod.id_produto} id={prod.id_produto} nome={prod.nome} descricao={prod.descricao} preco={prod.preco} foto={prod.foto}
+            key={prod.id_produto}
+            id={prod.id_produto}
+            nome={prod.nome}
+            descricao={prod.descricao}
+            preco={prod.preco}
+            foto={prod.foto}
           />
         })
       }

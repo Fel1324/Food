@@ -1,7 +1,8 @@
-import './produto-vitrine.css';
-import bag from '../../assets/bag-black.png';
 import { CartContext } from '../../contexts/cart-context';
 import { useContext } from 'react';
+import { Toaster, toast } from 'sonner'
+import './produto-vitrine.css';
+import bag from '../../assets/bag-black.png';
 
 function ProdutoVitrine(props){
   const {AddItemCart} = useContext(CartContext);
@@ -14,7 +15,7 @@ function ProdutoVitrine(props){
       foto: props.foto,
       qtd: 1
     };
-  
+
     AddItemCart(item);
   }
 
@@ -30,7 +31,12 @@ function ProdutoVitrine(props){
     </div>
 
     <div>
-      <button onClick={AddItem} className='btn btn-cart'>
+      <Toaster position='bottom-center' richColors />
+      <button className='btn btn-cart' onClick={() => {
+          AddItem();
+          toast.success('Item adicionado na sacola');
+        }}
+      >
         <img className='icon' src={bag} alt=""/>
         Adicionar
       </button>
