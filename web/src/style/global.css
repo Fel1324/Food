@@ -16,6 +16,11 @@ html, body{
   margin: 0;
 }
 
+::selection{
+  background-color: #E84F3D;
+  color: #FFF;
+}
+
 input, select{
   width: 100%;
 
