@@ -58,7 +58,7 @@ values('Mega', 'Hamburguer de 300g, maionese, tomate, alface, queijo e cebola',
        34.90, 'https://jornadajs-food.s3.amazonaws.com/mega.png');
 
 insert into produto(nome, descricao, preco, foto)
-values('Penne', 'Penne ao molho especial de tomates rústicos, ervas aromáticas e cebola', 
+values('Penne', 'Penne ao molho especial de tomate, ervas aromáticas e cebola', 
        27.00, 'https://jornadajs-food.s3.amazonaws.com/penne.png');
 
 insert into produto(nome, descricao, preco, foto)

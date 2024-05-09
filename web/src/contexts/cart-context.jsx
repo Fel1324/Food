@@ -20,6 +20,7 @@ function CartProvider(props){
       } else {
         cartItemNovo.push(prod);
       }
+
     }
 
     // SE NÃO ENCONTROU O ITEM OU É O PRIMEIRO ITEM A SER INSERIDO
