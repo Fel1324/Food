@@ -42,30 +42,57 @@ values('Heber Stein Mazutti', 'heber@teste.com.br', '');
 
 
 insert into produto(nome, descricao, preco, foto)
-values('Spicy Burguer', 'Hamburguer de 250g, queijo, tomate, alface e cebola', 
-       24.90, 'https://jornadajs-food.s3.amazonaws.com/spicy.png');
+values(
+	'Spicy Burguer',
+	'Hamburguer de 250g, queijo, tomate, alface e cebola', 
+	22.50,
+	'https://jornadajs-food.s3.amazonaws.com/spicy.png'
+);
 	   
 insert into produto(nome, descricao, preco, foto)
-values('Sanduba', 'Sanduiche natural, alface, tomate, pão integral e orégano', 
-       22.00, 'https://jornadajs-food.s3.amazonaws.com/sanduba.png');
+values(
+	'Sanduba',
+	'Sanduiche natural, alface, tomate, pão integral e orégano',
+	18.00,
+	'https://jornadajs-food.s3.amazonaws.com/sanduba.png'
+);
 
 insert into produto(nome, descricao, preco, foto)
-values('Super Burguer', 'Hamburguer de 300g, molho, queijo, tomate, alface e cebola', 
-       29.90, 'https://jornadajs-food.s3.amazonaws.com/super.png');
+values(
+	'Super Burguer',
+	'Hamburguer de 300g, molho, queijo, tomate, alface e cebola',
+	24.90,
+	'https://jornadajs-food.s3.amazonaws.com/super.png'
+);
 
 insert into produto(nome, descricao, preco, foto)
-values('Mega', 'Hamburguer de 300g, maionese, tomate, alface, queijo e cebola', 
-       34.90, 'https://jornadajs-food.s3.amazonaws.com/mega.png');
+values(
+	'Mega Burguer',
+	'Hamburguer de 400g, maionese, tomate, alface, queijo e cebola',
+	29.50,
+	'https://jornadajs-food.s3.amazonaws.com/mega.png'
+);
 
 insert into produto(nome, descricao, preco, foto)
-values('Penne', 'Penne ao molho especial de tomate, ervas aromáticas e cebola', 
-       27.00, 'https://jornadajs-food.s3.amazonaws.com/penne.png');
+values(
+	'Penne',
+	'Penne ao molho especial de tomate, ervas aromáticas e cebola',
+	19.90,
+	'https://jornadajs-food.s3.amazonaws.com/penne.png'
+);
 
 insert into produto(nome, descricao, preco, foto)
-values('Fritas',  'Batata frita crocante com molho especial de maionese da casa', 
-       14.90, 'https://jornadajs-food.s3.amazonaws.com/fritas.png');
+values(
+	'Fritas',
+	'Batata frita crocante com molho especial de maionese da casa',
+	12.90,
+	'https://jornadajs-food.s3.amazonaws.com/fritas.png'
+);
 
 insert into produto(nome, descricao, preco, foto)
-values('Coca-Cola Lata', 'Coca-cola em lata de 300ml, trincando de gelada para você', 
-       9.90, 'https://jornadajs-food.s3.amazonaws.com/coca.png');
-	   
+values(
+	'Coca-Cola Lata',
+	'Coca-cola em lata de 300ml, trincando de gelada para você',
+	5.00,
+	'https://jornadajs-food.s3.amazonaws.com/coca.png'
+);
