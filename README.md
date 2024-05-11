@@ -56,7 +56,7 @@
 
 <br>
 
-<h2 id="exec">Executando o projeto</h2>
+<h2 id="exec">🤖 Executando o projeto</h2>
 
 <h3>Pré-requisito</h3>
 
